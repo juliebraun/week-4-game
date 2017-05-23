@@ -1,0 +1,52 @@
+.btn {
+	background-color: #ff6666;
+	position: static;
+}
+
+#totalScore {
+	position: absolute;
+}
+
+ .title {
+	text-align: center;
+	font-size: 50px;
+	background-color: #ffd633;
+	margin-left: 15%;
+	position: relative;
+	float: left;
+}
+
+.instructions {
+	position: static;
+	margin-left: 15%;
+	float: left;
+	background-color: #00e600;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 15px 5px 15px 5px;
+	font-size: 18px;
+}
+
+.wlNumbers {
+	position: static;
+	float: left;
+	margin-left: 15%;
+	background-color: #3399ff;
+}
+
+.crystals {
+	margin-left: 15%;
+	text-align: center;
+	padding: 5px 20px 5px 20px;
+}
+
+.total {
+	background-color: #ff4dd2;
+	margin-left: 15%;
+	position: static;
+	float: left;
+}
+
+#jewel1 {
+	background-image: url("image/jewel1.png");
+}
