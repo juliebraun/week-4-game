@@ -1,3 +1,6 @@
+.body {
+background-image: url("http://hdwplan.com/wp-content/uploads/2016/04/blue-background-images-hd.jpeg");
+}
 .btn {
 	position: static;
 	width: 100px;
@@ -27,8 +30,8 @@
 	background-color: #00e600;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	padding: 15px 5px 15px 5px;
-	font-size: 18px;
+	padding: 15px 10px 15px 10px;
+	font-size: 15px;
 }
 
 .wlNumbers {
@@ -36,8 +39,19 @@
 	float: left;
 	margin-left: 15%;
 	background-color: #3399ff;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 11px; 
+	text-align: center;
 }
-
+.WLbox {
+	position: static;
+	float: left;
+	background-color: #3399ff;
+	padding-bottom: 10px;
+	padding-top: 9px;
+	font-size: 14px;
+}
 .crystals {
 	margin-left: 15%;
 	text-align: center;
@@ -50,7 +64,8 @@
 	position: static;
 	float: left;
 	margin-bottom: 30px;
-	padding: 20px 0px 20px 0px;
+	padding: 20px 10px 20px 10px;
+	font-size: 15px;
 }
 
 .btn-jewel1 {
@@ -68,4 +83,26 @@
 .btn-jewel4 {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fe/Crystal_Clear_app_ksokoban_violet.png");
 	background-size: 100px 120px;
+}
+#randomNumber {
+	display: inline-block;
+	font-size: 20px;
+}
+#wins {
+	display: inline-block;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+#losses {
+	display: inline-block;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+#totalScore {
+	font-size: 20px;
+	position: static;
+	display: inline;
+	padding-left: 20px;
 }

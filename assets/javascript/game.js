@@ -49,7 +49,7 @@ $("#randomNumber").html(randomNumber)
 function checkNumber(){
     if (randomNumber === total) {
         wins+=1;
-        total="";
+        total=0;
         randomNumber = ((Math.floor(Math.random() * 100) + 19)) ;
         num1 = Math.floor(1 + (Math.random() * 12));
         num2 = Math.floor(1 + (Math.random() * 12));
@@ -62,7 +62,7 @@ function checkNumber(){
     }
     else if (randomNumber < total) {
         losses+=1;
-        total="";
+        total=0;
         randomNumber = ((Math.floor(Math.random() * 100) + 19)) ;
         num1 = Math.floor(1 + (Math.random() * 12));
         num2 = Math.floor(1 + (Math.random() * 12));
